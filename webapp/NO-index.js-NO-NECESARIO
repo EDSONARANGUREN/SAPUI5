@@ -1,0 +1,24 @@
+sap.ui.define([
+		"sap/ui/core/ComponentContainer"
+	],
+	function (ComponentContainer) {
+
+		new ComponentContainer({
+			name: "LogaliUI5.SAPUI5",
+			settings: {
+				id: "LogaliUI5"
+			},
+			async: true
+		}).placeAt("content");
+	});
+
+/*		"sap/ui/core/mvc/XMLView"
+	],
+	function (XMLView) {
+
+		XMLView.create({
+			viewName: "LogaliUI5.SAPUI5.view.App"
+		}).then(function (oView){
+			oView.placeAt("content");
+		});
+	});*/
